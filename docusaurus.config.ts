@@ -1,36 +1,43 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
+import React, { useState, useEffect } from 'react';
 
-// 本文件运行于 Node.js - 请勿在此使用客户端代码（浏览器 API、JSX等）
+
+// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Ac-Wiki',
-  tagline: '属于大学生群体的真·青年大学习',
-  favicon: 'img/logo.ico',
+  title: 'My Site',
+  tagline: 'Dinosaurs are cool',
+  favicon: 'img/favicon.ico',
 
-  // 实验性功能, 参阅 https://docusaurus.io/docs/api/docusaurus-config#future
+  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
-    v4: true, // 提高与即将发布的 Docusaurus v4 的兼容性，true 即为启用全部实验性功能
+    v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
-  // 此处设置为生产环境站点
-  url: 'https://docusaurus.ac-wiki.org',
+  // Set the production url of your site here
+  url: 'https://flash555588.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/ac-io/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Ac-Wiki', // Usually your GitHub org/user name.
-  projectName: 'Ac-Wiki', // Usually your repo name.
+  organizationName: 'flash555588', // Usually your GitHub org/user name.
+  projectName: 'ac-io', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
+  // Even if you don't use internationalization, you can use this field to set
+  // useful metadata like html lang. For example, if your site is Chinese, you
+  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans'],
+    locales: ['zh-Hans', 'en'],
   },
 
   presets: [
@@ -38,11 +45,13 @@ const config: Config = {
       'classic',
       {
         docs: {
-		  routeBasePath: '/', // 设置文档的根路径
           sidebarPath: './sidebars.ts',
-          // 指向仓库内的文档源代码
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [rehypeKatex],
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Ac-Wiki/Ac-Wiki/tree/docusaurus-site',
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
@@ -50,9 +59,10 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // 指向仓库内的文档源代码
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Ac-Wiki/Ac-Wiki/tree/docusaurus-site',
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -64,23 +74,67 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
+  
+  stylesheets: [
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
+      type: 'text/css',
+      integrity:
+        'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
+      crossorigin: 'anonymous',
+    },
+  ],
 
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'Ac-Wiki',
+      title: 'My Site',
       logo: {
-        alt: 'Ac-Wiki Logo',
-        src: 'img/logo.png',
+        alt: 'My Site Logo',
+        src: 'img/logo.svg',
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial',
-        },
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: '首页',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'LifeSidebar',
+            position: 'left',
+            label: '校园生活',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'AcademicSidebar',
+            position: 'left',
+            label: '学术资源',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'GrowthSidebar',
+            position: 'left',
+            label: '成长通道',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'repositorySidebar',
+            position: 'left',
+            label: '通识技能库',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'HelpSidebar',
+            position: 'right',
+            label: '共建社区',
+          },
         {to: '/blog', label: '博客', position: 'left'},
         {
           href: 'https://github.com/Ac-Wiki/Ac-Wiki',
@@ -96,8 +150,8 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: '首页',
+              to: '/docs/',
             },
           ],
         },
@@ -105,26 +159,43 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Telegram 频道',
-              href: 'https://t.me/AcWiki',
+              label: 'Stack Overflow',
+              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
             },
             {
-              label: 'Telegram 群组',
-              href: 'https://t.me/AcFourm',
+              label: 'Discord',
+              href: 'https://discordapp.com/invite/docusaurus',
             },
             {
-              label: 'QQ 群组',
-              href: 'https://qm.qq.com/q/WJI3hgBcm4',
+              label: 'X',
+              href: 'https://x.com/docusaurus',
+            },
+          ],
+        },
+        {
+          title: 'More',
+          items: [
+            {
+              label: 'Blog',
+              to: '/blog',
+            },
+            {
+              label: 'GitHub',
+              href: 'https://github.com/facebook/docusaurus',
             },
           ],
         },
       ],
-      copyright: `© ${new Date().getFullYear()} Ac-Wiki<br>使用 <a href="https://docusaurus.io/zh-CN/">Docusaurus</a> 构建`,
+      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
+    themes: [
+      '@docusaurus/theme-mermaid',
+      '@docusaurus/theme-live-codeblock',
+    ],
   } satisfies Preset.ThemeConfig,
 };
 

@@ -1,7 +1,42 @@
 NekoMirra:
   name: NekoMirra
-  title: Ac-Wiki 发起人
+  title: Ac-Wiki 发起人 # Ac-Wiki Founder
   url: https://mirradev.eu.org/
   image_url: https://github.com/NekoMirra.png
   page: true
+  socials:
+    # x: 
+    github: NekoMirra
+    website: https://mirradev.eu.org/
+    
+ztm0929:
+  name: 天明 (@ztm0929)
+  title: Ac-Wiki 成员  # Ac-Wiki Member
+  image_url: https://github.com/ztm0929.png
+  url: https://github.com/ztm0929
+  page: true
+  socials:
+    # x: 
+    github: ztm0929
 
+anchoringpoint:
+  name: anchoringpoint
+  title: Ac-Wiki 成员 # Ac-Wiki Member
+  image_url: https://github.com/anchoringpoint.png
+  url: https://github.com/anchoringpoint
+  page: true
+  socials:
+    # x: 
+    github: anchoringpoint
+
+
+
+# JMarcey:
+#   name: Joel Marcey
+#   title: Developer Advocate at Meta
+#   url: https://x.com/JoelMarcey
+#   image_url: https://github.com/JoelMarcey.png
+#   page: true
+#   socials:
+#     x: joelmarcey
+#     github: JoelMarcey
