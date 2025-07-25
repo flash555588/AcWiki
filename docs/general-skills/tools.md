@@ -1,7 +1,14 @@
-???+ info
+---
+sidebar_position: 11
+title: 效率软件
+---
+
+:::info
 
     本篇主要关注操作系统上的效率软件。
     欢迎大家指正或补充～
+
+:::
 
 # **效率软件**
 
@@ -168,7 +175,7 @@ terminal 软件，可以在手机上编程、写小工具等
 
 ### [Auto.js 6](https://github.com/SuperMonster003/AutoJs6) 的社区分支版本
 
-- 文档： <https://docs.autojs6.com/>
+- 文档： [https://docs.autojs6.com/](https://docs.autojs6.com/)
 
 Android 平台支持无障碍服务的 JavaScript 自动化工具 (Auto.js 二次开发项目)
 

@@ -1,0 +1,14 @@
+Ac-Wiki:
+  label: Ac-Wiki
+  permalink: /Ac-Wiki
+  description: Ac-Wiki 的见解分享。
+
+docusaurus:
+  label: Docusaurus
+  permalink: /docusaurus
+  description: Docusaurus 是 Facebook 的一个开源项目，用于构建文档网站。
+
+social:
+  label: 人际关系
+  permalink: /social
+  description: 人际关系。

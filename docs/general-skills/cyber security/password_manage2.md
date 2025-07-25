@@ -1,6 +1,8 @@
-# 网络空间安全————浏览网站安全
-
 ---
+sidebar_position: 12.11
+---
+
+# 网络空间安全————浏览网站安全
 
 ## https:// 与 http://
 
@@ -9,7 +11,7 @@
 - HTTPS 是一种在 Web 服务器和 Web 浏览器之间发送数据的安全方式。
 
 超文本传输协议安全 (HTTPS) 是 HTTP 的安全版本，HTTP 是用于在 Web 浏览器和网站之间发送数据的主要协议。HTTPS 经过加密，以提高数据传输的安全性。当用户传输敏感数据（例如通过登录银行账户、电子邮件服务或健康保险提供商）时，这一点尤其重要。
-任何网站都应使用 HTTPS，尤其是那些需要登录凭据的网站。在现代 Web 浏览器（例如 Chrome）中，未使用 HTTPS 的网站与使用 HTTPS 的网站的标记有所不同。URL 栏中如出现挂锁，则表示该网页是安全的。Web 浏览器非常重视 HTTPS；[Google Chrome 和其他浏览器将所有非 HTTPS 网站标记为不安全。](https://www.cloudflare.com/learning/ssl/why-use-https/) </br>
+任何网站都应使用 HTTPS，尤其是那些需要登录凭据的网站。在现代 Web 浏览器（例如 Chrome）中，未使用 HTTPS 的网站与使用 HTTPS 的网站的标记有所不同。URL 栏中如出现挂锁，则表示该网页是安全的。Web 浏览器非常重视 HTTPS；[Google Chrome 和其他浏览器将所有非 HTTPS 网站标记为不安全。](https://www.cloudflare.com/learning/ssl/why-use-https/) <br />
 ![image](https://github.com/user-attachments/assets/7903824d-137b-4ceb-80d0-81325bbf5877)
 
 ### HTTPS 为什么很重要？如果网站没有 HTTPS，那会如何？
@@ -18,11 +20,11 @@ HTTPS 阻止网站以任何在网络上窥探的人都能轻松查看的方式�
 
 使用 HTTPS 时，流量会经过加密，即使嗅探到数据包或以其他方式截取数据包，它们也会呈现为无意义的字符。我们来看一个例子：
 
-> - 加密前：</br>
+> - 加密前：<br />
 
 `这是完全可读的文本字符串`
 
-> - 加密后：</br>
+> - 加密后：<br />
 
 `ITM0IRyiEhVpa6VnKyExMiEgNveroyWBPlgGyfkflYjDaaFf/Kn3bo3OfghBPDWo6AfSHlNtL8N7ITEwIXc1gU5X73xMsJormzzXlwOyrCs+9XCPk63Y+z0=`
 
@@ -32,9 +34,9 @@ HTTPS 阻止网站以任何在网络上窥探的人都能轻松查看的方式�
 
 |                                                                                     |                                                                                           |
 | :---------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------: |
-| 1、窃听风险 <br> 中间人可以获取到通信内容，由于内容是明文，所以获取明文后有安全风险 | ![image](https://github.com/user-attachments/assets/90d82d50-8d3c-4c7d-9f9b-e8b55ce89fb7) |
-|           2、篡改风险 <br> 中间人可以篡改报文内容后再发送给对方，风险极大           | ![image](https://github.com/user-attachments/assets/3ba95012-58be-4132-b9bd-31cda09bed3f) |
-|     3、冒充风险 <br> 比如你以为是在和某宝通信，但实际上是在和一个钓鱼网站通信。     | ![image](https://github.com/user-attachments/assets/1807e749-aa5d-4c5c-a21e-f1b342ef8a02) |
+| 1、窃听风险 <br /> 中间人可以获取到通信内容，由于内容是明文，所以获取明文后有安全风险 | ![image](https://github.com/user-attachments/assets/90d82d50-8d3c-4c7d-9f9b-e8b55ce89fb7) |
+|           2、篡改风险 <br /> 中间人可以篡改报文内容后再发送给对方，风险极大           | ![image](https://github.com/user-attachments/assets/3ba95012-58be-4132-b9bd-31cda09bed3f) |
+|     3、冒充风险 <br /> 比如你以为是在和某宝通信，但实际上是在和一个钓鱼网站通信。     | ![image](https://github.com/user-attachments/assets/1807e749-aa5d-4c5c-a21e-f1b342ef8a02) |
 
 ### 总结
 
@@ -52,8 +54,8 @@ HTTPS 阻止网站以任何在网络上窥探的人都能轻松查看的方式�
 
 ## 域名（Domain Name）
 
-是互联网上用来识别和访问网站的一个易于记忆的地址。它将 IP 地址（一串数字）转换为人类可读的格式，比如 <www.example.com。域名系统（DNS）负责将域名解析为对应的> IP 地址，以便用户的设备能够找到并访问相应的服务器。
-顶级域名（Top-Level Domain, TLD）： </br>
+是互联网上用来识别和访问网站的一个易于记忆的地址。它将 IP 地址（一串数字）转换为人类可读的格式，比如 www.example.com。域名系统（DNS）负责将域名解析为对应的 IP 地址，以便用户的设备能够找到并访问相应的服务器。
+顶级域名（Top-Level Domain, TLD）： <br />
 
 ![image](https://github.com/user-attachments/assets/29a37ddd-379c-452d-98c4-1e7b43bce374)
 
@@ -118,6 +120,6 @@ HTTPS 阻止网站以任何在网络上窥探的人都能轻松查看的方式�
 
 ## 参考文章
 
-<https://cloud.tencent.com/developer/article/1758154>
+[20 张图彻底弄懂 HTTPS 的原理！](https://cloud.tencent.com/developer/article/1758154)
 
-<https://www.cloudflare.com/zh-cn/learning/ssl/what-is-https/>
+[什么是 HTTPS？](https://www.cloudflare.com/zh-cn/learning/ssl/what-is-https/)

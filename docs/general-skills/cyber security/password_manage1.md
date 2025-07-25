@@ -1,3 +1,8 @@
+---
+sidebar_position: 12.1
+title: 密码管理
+---
+
 # **网络空间安全—密码管理 Part1**
 
 ## part1 更新状态：✅
@@ -8,9 +13,9 @@
 
 - 随着网络空间安全危害事件的发生，密码作为个人信息账号的第一道防线，应该得到重视。
 - 很多人都有这个经历：
-    > - <https://linux.do/t/topic/235317>
-    > - <https://linux.do/t/topic/239657>
-    > - <https://linux.do/t/topic/235505>
+    > - [疑似大规模撞库，建议加强微软账户安全防护](https://linux.do/t/topic/235317)
+    > - [终于是轮到我了tieba_004](https://linux.do/t/topic/239657)
+    > - [微软又被登陆了，这也不是第一次了](https://linux.do/t/topic/235505)
 - 如果你频繁使用一个账户密码，且缺少二次验证，攻击者可以使用撞库等手段，破解你几乎所有的账号。
 - 下面，以 Android 为主，MacOS 为辅，通过各种手段，加强账号信息强度：
 
@@ -114,13 +119,13 @@ Bitwarden 是一个线上的开源密码管理器，你可以使用官方提供�
 
 > 文章地址：
 >
-> - Linuxdo <https://linux.do/t/topic/242686>
-> - Ac-Wiki <https://github.com/Ac-Wiki/Ac-Wiki/blob/main/03-tools/cyber%20security/password_manage1.md>
+> - [Linuxdo](https://linux.do/t/topic/242686)
+> - [Ac-Wiki](https://github.com/Ac-Wiki/Ac-Wiki/blob/main/03-tools/cyber%20security/password_manage1.md)
 >
 > 作者：
 >
-> - user695(linux.do) <https://linux.do/u/user695/summary>
-> - KipJaychou(Github) <https://github.com/KipJayChou>
+> - [user695(linux.do)](https://linux.do/u/user695/summary)
+> - [KipJaychou(Github)](https://github.com/KipJayChou)
 >
 > 向我申请 Linuxdo 邀请码：
 > [mailto:jay20070220@gmail.com](mailto:jay20070220@gmail.com)
