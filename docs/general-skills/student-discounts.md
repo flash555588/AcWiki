@@ -1,9 +1,16 @@
-???+ info "教育优惠"
+---
+sidebar_position: 1
+title: 学生优惠
+---
+
+:::info 教育优惠
 
     教育优惠，是各大商业服务面向大学生群体（同时可能包含教职工）提供的免费或折扣优惠，这里做一个简单的收集汇总。通常需要 **校园邮箱** 作为辅助验证方式，请大家及时联系学校的信息中心管理员了解校园邮箱账号的相关信息哦！
     如果学校确实无法提供教育邮箱，也可以通过 **在校证明/学信网报告** 有效证明等直接向对应客服邮件联系～
 
     欢迎大家指正或补充～
+
+:::
 
 # 教育优惠
 
@@ -17,7 +24,11 @@
 - 一般代理都会给开卡的同学返 30 元，也就是折合价格 120 元左右开一张卡。但对新生一般不主动提，所以新生记得和他们讨价还价，有很大的余地，因为他们是白捡钱。
 - 大一新生如果想的话可以直接找开卡的学长学姐，自己做代理，自己基本 50 元左右就能开一张卡，再以优惠的价格给同学们开开，自己也能赚点小钱，而且开卡的同学也会觉得你人不错，会对你印象好一些。
 
-<p style="font-size: 25px;">严禁出借/售卖电话卡、身份证等，你很有可能在<a href="https://baike.baidu.com/item/%E5%B8%AE%E5%8A%A9%E4%BF%A1%E6%81%AF%E7%BD%91%E7%BB%9C%E7%8A%AF%E7%BD%AA%E6%B4%BB%E5%8A%A8%E7%BD%AA/22357871">犯罪</a>！</p>
+:::danger
+
+严禁出借/售卖电话卡、身份证等，你很有可能在[犯罪](https://baike.baidu.com/item/%E5%B8%AE%E5%8A%A9%E4%BF%A1%E6%81%AF%E7%BD%91%E7%BB%9C%E7%8A%AF%E7%BD%AA%E6%B4%BB%E5%8A%A8%E7%BD%AA/22357871)！
+
+:::
 
 ### 快递
 
@@ -82,12 +93,14 @@
 - [GitHub Pro](https://docs.github.com/zh/get-started/learning-about-github/githubs-plans#github-pro)：代码协作平台，包含在 GitHub 学生开发者资源包中;
 - [Jetbrains](https://www.jetbrains.com/zh-cn/community/education/#students)：编程语言开发套件，用了都说好。打开界面后往下拉找到立刻申请按钮点击，之后按照网站需求填写信息即可（需要有学生邮箱）
 
-???+ tip "Github 学生包申请注意事项"
+:::tip Github 学生包申请注意事项
 
     - 尽量使用 edu 邮箱进行申请
     - 申请过程中会定位，请尽可能在学校位置
     - 上传证件可上传学信网验证报告 (翻译件)
     - 保持足够的耐心多试几次
+
+:::
 
 ### 📒 笔记
 
@@ -123,6 +136,8 @@
 
 [Best-student-discount-services](https://github.com/OpenGenus/Best-student-discount-services)
 
-🔗 项目频道（TG）：<https://t.me/AcWiki>
+🔗 项目频道（TG）：
+[https://t.me/AcWiki](https://t.me/AcWiki)
 
-🔗 交流群组（TG）：<https://t.me/AcFourm>
+🔗 交流群组（TG）：
+[https://t.me/AcFourm](https://t.me/AcFourm)

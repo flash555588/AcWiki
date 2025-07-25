@@ -2,7 +2,7 @@
 
 压缩包是一种特殊的文件格式，其主要作用是将**一个或多个文件/文件夹**进行**打包**（归档）并应用**压缩算法**处理，目的是**减少其总体占用的存储空间**。常见的压缩包格式包括 ZIP、RAR、7z 等。
 
-??? tip "为什么要将文件进行压缩"
+:::tip 为什么要将文件进行压缩
 
     - **节省存储空间：** 通过识别并消除文件中的冗余信息（如重复的字符串、模式），显著减小文件体积，便于存储和备份。
     - **文件归档：** 将众多零散的文件或整个目录结构打包成一个单一文件，方便管理、传输和共享。用户无需逐个处理大量小文件。
@@ -10,13 +10,15 @@
     - **分卷压缩：** 将大型压缩包分割成多个指定大小的较小文件（分卷），便于通过容量受限的媒介（如早期软盘、邮件附件限制）传输。
     - **文件完整性校验：** 部分压缩格式（如 RAR, 7z）支持添加恢复记录或使用更健壮的校验和，有助于在数据损坏时尝试修复或检测传输错误。
 
+:::
+
 ## 常见的解压缩软件
 
 | 软件名称             | 特点                                                                                                 | 支持的主要格式 (创建/解压)                                                                 | 链接/备注                                                                  |
 | :------------------- | :--------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------- | :------------------------------------------------------------------------- |
 | **Bandizip**         | 界面现代，功能强大且免费（标准版有广告，付费专业版无广告），支持超快解压、密码管理、修复损坏压缩包。 | **极广**: Zip, 7z, RAR, ALZ, EGG, TAR, ISO, GZ, XZ, LZH, ARJ, CAB, VHD...                  | [https://www.bandisoft.com/bandizip/](https://www.bandisoft.com/bandizip/) |
-| **7-Zip**            | 开源免费，无广告，压缩率高（尤其 7z 格式），集成到右键菜单方便。                                     | **创建**: 7z, XZ, BZIP2, GZIP, TAR, ZIP, WIM <br>**解压**: RAR, ARJ, CAB, CHM, ISO, LZH... | [https://www.7-zip.org/](https://www.7-zip.org/)                           |
-| **WinRAR**           | 商业软件（有免费试用版，过期后仍可免费使用解压功能），RAR 格式的官方支持者，功能全面稳定。           | **创建**: RAR, RAR5, ZIP <br>**解压**: 几乎所有常见格式                                    | [https://www.win-rar.com/](https://www.win-rar.com/)                       |
+| **7-Zip**            | 开源免费，无广告，压缩率高（尤其 7z 格式），集成到右键菜单方便。                                     | **创建**: 7z, XZ, BZIP2, GZIP, TAR, ZIP, WIM <br />**解压**: RAR, ARJ, CAB, CHM, ISO, LZH... | [https://www.7-zip.org/](https://www.7-zip.org/)                           |
+| **WinRAR**           | 商业软件（有免费试用版，过期后仍可免费使用解压功能），RAR 格式的官方支持者，功能全面稳定。           | **创建**: RAR, RAR5, ZIP <br />**解压**: 几乎所有常见格式                                    | [https://www.win-rar.com/](https://www.win-rar.com/)                       |
 | **Windows 内置支持** | Win10/11 原生支持打开 `.zip` 文件（如同文件夹），也可通过“发送到 > 压缩文件夹”创建 `.zip`。          | **仅支持 ZIP 格式** (创建和解压)                                                           | 无需额外安装，但功能非常基础                                               |
 | **PeaZip**           | 开源免费，跨平台（Windows, Linux），支持众多格式，界面可配置性强。                                   | **极广**: 7z, ZIP, TAR, GZ, BZ2, XZ, RAR, ISO, DEB, RPM...                                 | [https://peazip.github.io/](https://peazip.github.io/)                     |
 | **NanaZip**          | 基于 7-Zip 的现代开源分支，适配 Windows 11 风格，支持上下文菜单预览等新特性。                        | 同 7-Zip                                                                                   | [https://github.com/M2Team/NanaZip](https://github.com/M2Team/NanaZip)     |
@@ -69,7 +71,7 @@
 
 ## 参考
 
-压缩包 : <https://baike.baidu.com/item/%E5%8E%8B%E7%BC%A9%E5%8C%85/5373066>
-无损压缩和有损压缩的区别？ : <https://www.zhihu.com/question/267956200>
-RARLAB - WinRAR and RAR archiver : <https://www.rarlab.com/>
-UnRAR license : <https://www.rarlab.com/license.htm> (关于解压 RAR 的许可)
+- [压缩包](https://baike.baidu.com/item/%E5%8E%8B%E7%BC%A9%E5%8C%85/5373066)
+- [无损压缩和有损压缩的区别？](https://www.zhihu.com/question/267956200)
+- [RARLAB - WinRAR and RAR archiver](https://www.rarlab.com/)
+- [UnRAR license (关于解压 RAR 的许可)](https://www.rarlab.com/license.htm)

@@ -26,35 +26,35 @@
 
 ### Filelight (多平台)
 
-- 详细信息：<https://apps.kde.org/zh-cn/filelight/>
+- 详细信息：[https://apps.kde.org/zh-cn/filelight/](https://apps.kde.org/zh-cn/filelight/)
 - 开源可视化工具，使用环形图展示磁盘占用（GPL-2.0+ 协议）
 
 ### WinDirStat (Windows)
 
-- 详细信息：<https://windirstat.net/>
+- 详细信息：[https://windirstat.net/](https://windirstat.net/)
 - 经典的三窗格布局工具，支持文件类型着色显示（GPL 协议）
 
 ### TreeSize Free (Windows)
 
-- 详细信息：<https://www.jam-software.com/treesize_free>
+- 详细信息：[https://www.jam-software.com/treesize_free](https://www.jam-software.com/treesize_free)
 - 可快速扫描 NTFS 分区，支持右键菜单集成（免费版）
 
 ### OmniDiskSweeper (macOS)
 
-- 详细信息：<https://www.omnigroup.com/more>
+- 详细信息：[https://www.omnigroup.com/more](https://www.omnigroup.com/more)
 - 轻量级工具，支持按大小排序删除文件（免费）
 
 ### GrandPerspective (macOS)
 
-- 详细信息：<https://grandperspectiv.sourceforge.net/>
+- 详细信息：[https://grandperspectiv.sourceforge.net/](https://grandperspectiv.sourceforge.net/)
 - 使用矩形树状图可视化空间占用（GPL 协议）
 
 ### ncdu (Linux)
 
-- 详细信息：<https://dev.yorhel.nl/ncdu>
+- 详细信息：[https://dev.yorhel.nl/ncdu](https://dev.yorhel.nl/ncdu)
 - 终端交互式工具，支持远程 SSH 分析（MIT 协议）
 
 ### baobab (Linux)
 
-- 详细信息：<https://wiki.gnome.org/Apps/DiskUsageAnalyzer>
+- 详细信息：[https://wiki.gnome.org/Apps/DiskUsageAnalyzer](https://wiki.gnome.org/Apps/DiskUsageAnalyzer)
 - GNOME 官方工具，提供环形图/树状图双视图（GPL 协议）

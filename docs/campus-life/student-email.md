@@ -1,3 +1,7 @@
+---
+sidebar_position: 11
+---
+
 # 学生邮箱
 
 ## 申请学生邮箱
@@ -89,7 +93,7 @@ _注，以下邮箱客户端可以同时在 Android 和 Windows 上使用_
 
 具体的申请教程因为不同的邮件系统千差万别实在难以概括说明，故请大家自行查阅系统的相关说明，留意“**App**”“**应用密码**”“**客户端密码**”等相关的词组。
 
-因为 Thunderbird 对部分学校邮箱的适配极差，相关教程也未进行更新，故此特别提醒，如果多次尝试未能成功，请尝试使用 <https://toolonline.net/port-scan> 提供的工具，在下面的“端口扫描”中填入 `25,465,587,110,995,143,993`，输入邮箱域名进行扫描，看看哪几个邮件端口是开着的，一般的服务器地址是 `pop.School_Name.edu.cn` 或者 `imap.School_Name.edu.cn` / `smpt.School_Name.edu.cn` 分别对应 pop 协议和 imap/smtp 协议的服务器，如果发现所有端口都没开，那也可以试试 `mail.School_Name.edu.cn` 之类的，这类邪门问题通常可以咨询学校的信息技术部门或者学长解决。
+因为 Thunderbird 对部分学校邮箱的适配极差，相关教程也未进行更新，故此特别提醒，如果多次尝试未能成功，请尝试使用 [https://toolonline.net/port-scan](https://toolonline.net/port-scan) 提供的工具，在下面的“端口扫描”中填入 `25,465,587,110,995,143,993`，输入邮箱域名进行扫描，看看哪几个邮件端口是开着的，一般的服务器地址是 `pop.School_Name.edu.cn` 或者 `imap.School_Name.edu.cn` / `smpt.School_Name.edu.cn` 分别对应 pop 协议和 imap/smtp 协议的服务器，如果发现所有端口都没开，那也可以试试 `mail.School_Name.edu.cn` 之类的，这类邪门问题通常可以咨询学校的信息技术部门或者学长解决。
 
 > **POP 协议和 IMAP/SMTP 协议的区分**
 > 简而言之，pop 协议只能收发不能删除，IMAP/SMTP 啥都能干

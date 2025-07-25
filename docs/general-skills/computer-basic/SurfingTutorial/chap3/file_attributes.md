@@ -106,6 +106,6 @@
 
 ## 参考
 
-电脑文件 : <https://baike.baidu.com/item/%E7%94%B5%E8%84%91%E6%96%87%E4%BB%B6/21421152>
+[电脑文件](https://baike.baidu.com/item/%E7%94%B5%E8%84%91%E6%96%87%E4%BB%B6/21421152)
 
-文件格式列表 : <https://zh.wikipedia.org/wiki/%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%E5%88%97%E8%A1%A8>
+[文件格式列表](https://zh.wikipedia.org/wiki/%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%E5%88%97%E8%A1%A8)

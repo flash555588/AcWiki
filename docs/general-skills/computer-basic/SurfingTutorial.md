@@ -66,7 +66,7 @@
 
 下面是由 `Eric S. Raymond, Rick Moen`编写的 **How To Ask Questions The Smart Way** 的中文版
 
-<https://github.com/tvvocold/How-To-Ask-Questions-The-Smart-Way>
+[https://github.com/tvvocold/How-To-Ask-Questions-The-Smart-Way](https://github.com/tvvocold/How-To-Ask-Questions-The-Smart-Way)
 
 ### BIOS(UEFI) 的基本配置
 
@@ -78,7 +78,7 @@
 ## 其他
 
 对于该文档的建议，请为这个项目启动一个 Issue :
-<https://github.com/Ac-Wiki/Ac-Wiki/issues>
+[https://github.com/Ac-Wiki/Ac-Wiki/issues](https://github.com/Ac-Wiki/Ac-Wiki/issues)
 
 如果你愿意帮助本教程变得更好，欢迎 PR
 

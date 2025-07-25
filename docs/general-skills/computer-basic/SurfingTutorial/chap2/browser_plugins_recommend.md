@@ -14,7 +14,7 @@
 
 如果因为一些原因无法访问官方站点，也可以考虑第三方下载站，但这里的插件需要谨慎对待，例如：
 
-- Crx4Chrome:<https://www.crx4chrome.com/>
+- [Crx4Chrome](https://www.crx4chrome.com/)
 
 直接在官网安装，一般只需要确认安装提示就好，上面有插件需要的权限
 
@@ -41,19 +41,20 @@
 
 ### uBlock Origin
 
+高效广告拦截插件，比 AdBlock Plus 节省 40% 内存
+
 分发站点：
 
-- Chrome:<https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm>
-- Firefox:<https://addons.mozilla.org/zh-CN/firefox/addon/ublock-origin>
-  高效广告拦截插件，比 AdBlock Plus 节省 40% 内存
+- [Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
+- [Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/ublock-origin)
 
 ### 暴力猴
 
-- Chrome:<https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag>
-- Firefox:<https://addons.mozilla.org/firefox/addon/violentmonkey>
-- Edge:<https://microsoftedge.microsoft.com/addons/detail/eeagobfjdenkkddmbclomhiblgggliao>
-
 开源的用户脚本管理器，嗯……开源。
+
+- [Chrome](https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag)
+- [Firefox](https://addons.mozilla.org/firefox/addon/violentmonkey)
+- [Edge](https://microsoftedge.microsoft.com/addons/detail/eeagobfjdenkkddmbclomhiblgggliao)
 
 ### Tampermonkey
 
@@ -65,8 +66,8 @@
 
 分发站点：
 
-- Chrome:<https://chrome.google.com/webstore/detail/infinity-new-tab-pro/nnnkddnnlpamobajfibfdgfnbcnkgngh>
-- Firefox:<https://addons.mozilla.org/zh-CN/firefox/addon/infinity-new-tab-pro/>
+- [Chrome](https://chrome.google.com/webstore/detail/infinity-new-tab-pro/nnnkddnnlpamobajfibfdgfnbcnkgngh)
+- [Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/infinity-new-tab-pro/)
 
 自定义起始页工具，支持云同步配置
 
@@ -74,8 +75,8 @@
 
 分发站点：
 
-- Chrome:<https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh>
-- Firefox:<https://addons.mozilla.org/zh-CN/firefox/addon/darkreader/>
+- [Chrome](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh)
+- [Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/darkreader/)
 
 全局深色模式插件，保护眼睛利器
 
@@ -83,8 +84,8 @@
 
 分发站点：
 
-- Chrome:<https://chrome.google.com/webstore/detail/singlefile/mpiodijhokgodhhofbcjdecpffjipkle>
-- Firefox:<https://addons.mozilla.org/zh-CN/firefox/addon/single-file/>
+- [Chrome](https://chrome.google.com/webstore/detail/singlefile/mpiodijhokgodhhofbcjdecpffjipkle)
+- [Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/single-file/)
 
 可将网页保存为单文件，学术研究必备
 
@@ -127,12 +128,12 @@
 
 | 脚本名称             | 功能              | 了解更多信息                                  | 使用场景      |
 | -------------------- | ----------------- | --------------------------------------------- | ------------- |
-| **Bilibili Evolved** | B 站功能增强      | <https://github.com/the1812/Bilibili-Evolved> | 视频学习/娱乐 |
-| **CSDN 净化器**      | 去广告/免登录复制 | <https://greasyfork.org/scripts/378351>       | 技术文档查阅  |
-| **AC-baidu**         | 搜索引擎优化      | <https://greasyfork.org/scripts/14178>        | 高效信息检索  |
-| **网页限制解除**     | 解除复制/右键限制 | <https://greasyfork.org/scripts/28497>        | 文献资料收集  |
-| **知乎增强**         | 去广告/优化阅读   | <https://greasyfork.org/scripts/419081>       | 知识获取      |
-| **网盘直链助手**     | 百度网盘直链提取  | <https://greasyfork.org/scripts/418182>       | 文件下载加速  |
+| **Bilibili Evolved** | B 站功能增强      | https://github.com/the1812/Bilibili-Evolved | 视频学习/娱乐 |
+| **CSDN 净化器**      | 去广告/免登录复制 | https://greasyfork.org/scripts/378351       | 技术文档查阅  |
+| **AC-baidu**         | 搜索引擎优化      | https://greasyfork.org/scripts/14178        | 高效信息检索  |
+| **网页限制解除**     | 解除复制/右键限制 | https://greasyfork.org/scripts/28497        | 文献资料收集  |
+| **知乎增强**         | 去广告/优化阅读   | https://greasyfork.org/scripts/419081       | 知识获取      |
+| **网盘直链助手**     | 百度网盘直链提取  | https://greasyfork.org/scripts/418182       | 文件下载加速  |
 
 ### 脚本管理高级技巧
 
