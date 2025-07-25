@@ -1,7 +1,9 @@
 ---
 sidebar_position: 1
-title: 关于 Wiki
+title: 共建社区
 ---
+
+# 欢迎来到共建社区！
 
 :::info Wiki
 

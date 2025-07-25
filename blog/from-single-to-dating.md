@@ -1,11 +1,10 @@
 ---
 authors:
-    - anchoringpoint
-date:
-    created: 2025-07-04
+  - anchoringpoint
+date: 2025-07-04
 tags:
-    - 人际交往
-    - 亲密关系
+  - 人际交往
+  - 亲密关系
 ---
 
 # 脱单技巧
